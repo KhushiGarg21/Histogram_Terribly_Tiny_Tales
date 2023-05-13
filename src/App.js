@@ -109,18 +109,15 @@ const fetchData = async () => {
 
   // Scrolling to the top of the screen
   const scrollDowntoTop = () => {
-    const windowHeight = window.innerHeight;
-    const scrollHeight = windowHeight;
-
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
 
-  const timer = setTimeout(scrollDown, 3000);
-  const timer2 = setTimeout(scrollDowntoExport, 5000);
-  const timer3 = setTimeout(scrollDowntoTop, 7000);
+  setTimeout(scrollDown, 3000);
+  setTimeout(scrollDowntoExport, 5000);
+  setTimeout(scrollDowntoTop, 7000);
 
   return (
     <div>
