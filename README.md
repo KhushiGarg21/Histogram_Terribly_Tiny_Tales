@@ -1,6 +1,6 @@
-Here is the live link of the assignment :- [histogramsitebykhushi.netlify.app](url)
+Histogram Assignment
 
-You'll see a "Submit" button. Clicking on it, will fetch the contents of my "data" text file, parse the content to find the frequency of occurrence of each word, and display a histogram of the 20 most occurring words.
+First You'll see a "Submit" button. Clicking on it, will fetch the contents of my "data" text file, parse the content to find the frequency of occurrence of each word, and display a histogram of the 20 most occurring words.
 Additionally, you can click the "Export" button to download a CSV file of the histogram data.
 
 I used mapping to get each word(which comes under in 20 most occuring words).
