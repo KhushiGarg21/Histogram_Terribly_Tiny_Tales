@@ -124,6 +124,7 @@ const fetchData = async () => {
       {/* Submit button */}
       <button
         style={{
+          cursor:"pointer",
           width: "100px",
           height: "45px",
           color: "#900c3f",
@@ -222,6 +223,7 @@ const fetchData = async () => {
 {/* Export button */}
           <button
             style={{
+              cursor:"pointer",
               color: "#900c3f",
               backgroundColor: "#ffc300",
               fontSize: "20px",
